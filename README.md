@@ -1,4 +1,4 @@
-# Co potrafi SVG? Dariusz Biedrzycki
+# TDD in JavaScript - small workshop Dariusz Biedrzycki
 
 ![Logo](/themes/warsawjs/pictures/logo.png)
 
