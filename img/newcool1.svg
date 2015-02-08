@@ -1,0 +1,15 @@
+<?xml version="1.0"?><svg width="755.9055118110236" height="755.9055118110236" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g>
+  <path d="m161.96814,414.131439c-10.967392,-95.331848 47.942993,-207.561386 190.51889,-213.466888l-7.550415,81.85257c32.902161,-26.715393 79.729553,-98.554886 91.131195,-136.936554c-8.555359,-38.202835 -53.729614,-100.616985 -89.443878,-132.956676l6.110199,70.177517c-232.180099,3.37458 -334.262081,208.659409 -309.080933,352.837814l51.215225,-43.153046l67.099716,21.645264z" id="path2341" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.75" stroke="#01013f" fill-rule="evenodd" fill="#0000ff"/>
+  <text font-weight="bold" transform="rotate(-34.7563, 212.693, 198.269) matrix(1.71008, -2.38419e-07, 0, 2.07815, -120.131, -249.402)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" id="svg_1" y="225.417" x="194.054" stroke-width="0" stroke="#000000" fill="#fcfcfc">Refactor</text>
+
+  
+  <path d="m427.725006,218.897995c87.131989,40.203995 152.361969,148.882004 83.268005,273.737015l-65.990021,-49.012024c5.710022,41.996002 42.723022,119.351013 69.578979,149.048035c37.080017,12.557007 113.883057,6.425964 160.078003,-7.264038l-63.120972,-31.271973c117.849976,-200.076019 -4.416016,-394.019012 -140.661987,-447.48201l10.227997,66.186005l-53.380005,46.05899l0,0z" id="path2969" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.75" stroke="#3a0303" fill-rule="evenodd" fill="#ff0000"/>
+  <text id="svg_3" font-weight="bold" transform="rotate(79.0963, 603.721, 353.82) matrix(1.67048, -8.9407e-08, 0, 1.87319, -154.005, -213.683)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" y="312.962" x="452.776" stroke-width="0" stroke="#000000" fill="#fcfcfc">Fail</text>
+
+  <path d="m465.789795,539.638916c-76.476685,57.96344 -203.065552,64.378784 -280.718658,-55.340729l74.2995,-35.162994c-39.742752,-14.723358 -125.414871,-18.465485 -164.256073,-8.743774c-28.52932,26.809113 -59.260403,97.462036 -68.919304,144.66449l57.296822,-40.979187c121.082214,198.136536 349.744461,181.517822 461.032211,86.457092l-63.213013,-22.120117l-15.521484,-68.77478z" id="path2970" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.75" stroke="#0d1e02" fill-rule="evenodd" fill="#15a329"/>
+  <text id="svg_4" font-weight="bold" transform="rotate(8.78412, 328.114, 626.054) matrix(1.47363, -1.04308e-07, -2.98023e-08, 1.78739, -60.9602, -205.578)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" y="475.315" x="263.733" stroke-width="0" stroke="#000000" fill="#fcfcfc">Pass</text>
+
+
+ </g>
+</svg>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WarsawJS SVG - co potrafi</title>
+    <title>TDD in JavaScript - small workshop</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=792, user-scalable=no">
@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="themes/warsawjs/styles/ribbon-theme.css">
     <link rel="stylesheet" href="themes/warsawjs/styles/warsawjs-theme.css">
+    <link rel="stylesheet" href="themes/darekb.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body class="list">
     <header class="caption">
@@ -34,15 +36,144 @@
             </p> -->
     </section>
 
+    <section class="slide" style="background:transparent url('img/wood-framed_house.jpg') no-repeat top left; background-size:cover;">
+        <div style="background:rgba(255,255,255,0.7); ">
+            <h2 class="big headerStyle">Good start ...</h2>
+            <p class="big parStyle">You have plan</p>
+            <p class="big parStyle">You have good structure (framework)</p>
+            <p class="big parStyle">You have skillfull people</p>
+        </div>
+    </section>
+    <section class="slide" style="background:transparent url('img/wooden-house.jpg') no-repeat top left; background-size:cover;">
+        <div style="background:rgba(255,255,255,0.7); ">
+            <h2 class="big headerStyle">Terrible end...</h2>
+            <p class="big parStyle">Patched patches</p>
+            <p class="big parStyle">Old code that wrote mythic first developer</p>
+            <p class="big parStyle">Everything depends everything</p>
+            <p class="big parStyle">Etc.</p>
+            <p style="font-size:0.7em; text-align:right;">Pix credit:&nbsp; <a href="http://www.panoramio.com/user/739939">Lauri V</a> &nbsp;from <a href="http://www.panoramio.com/">Panoramio</a></p>
+        </div>
+    </section>
+    <section class="slide" style="background:transparent url('img/wooden-house.jpg') no-repeat top left; background-size:cover;">
+        <div style="background:rgba(255,255,255,0.7); ">
+            <h2 class="big headerStyle">Terrible end...</h2>
+            <p class="big parStyle">Dead end</p>
+        </div>
+    </section>
+    <section class="slide" style="background:transparent url('img/ver20.gif') no-repeat top left; background-size:cover;">
+        <div style="background:rgba(255,255,255,0.7); ">
+            <h2 class="big headerStyle">Ver 2.0</h2>
+            <p class="big parStyle">Complete new version</p>
+            <p class="big parStyle">Clean start</p>
+            <p class="big parStyle">Deep breath</p>
+        </div>
+    </section>
     <section class="slide">
+            <h2 class="big headerStyle">Ver 2.0</h2>
+            <p class="big parStyle">Wrong turn</p>
+            <p class="big parStyle">Double development (ver 1 and 2)</p>
+            <p class="big parStyle">Same developers = same mistakes</p>
+    </section>
+    <section class="slide" style="background:transparent url('img/wooden-house.jpg') no-repeat top left; background-size:cover;">
+        <div style="background:rgba(255,255,255,0.7); ">
+            <h2 class="big headerStyle">And again...</h2>
+            <p class="big parStyle">Dead end</p>
+            <p style="font-size:0.7em; text-align:right;">Pix credit:&nbsp; <a href="http://www.panoramio.com/user/739939">Lauri V</a> &nbsp;from <a href="http://www.panoramio.com/">Panoramio</a></p>
+        </div>
+    </section>
+    <section class="slide" >
         <div>
-              
+            <h2 class="big headerStyle">Is there any easy solution?</h2>
+            <p class="big parStyle">No</p>
+            <p class="big parStyle">But exist some cure</p>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">TDD</h2>
+            <p class="big parStyle">Test Driven Development</p>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">TDD</h2>
+            <p class="big parStyle">Simple</p>
+            <p class="big parStyle">Very quick</p>
+            <p class="big parStyle">Test</p>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">TDD</h2>
+            <p class="big parStyle">We test only code</p>
+            <p class="big parStyle">Test in isolated environment</p>
+            <p class="big parStyle">We not need any browser</p>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">We not need any browser?????</h2>
+            <p class="big parStyle">Thats not realy true...</p>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">TDD</h2>
+            <p class="big parStyle">Three states</p>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">1.Fail</h2>
+            <div style="text-align:center;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 755 755" style="width:50%; margin:auto;">
+                    <path d="m162 414.1c-11-95.3 47.9-207.6 190.5-213.5l-7.6 81.9c32.9-26.7 79.7-98.6 91.1-136.9 -8.6-38.2-53.7-100.6-89.4-133l6.1 70.2c-232.2 3.4-334.3 208.7-309.1 352.8l51.2-43.2 67.1 21.6z" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.8" stroke="#01013f" fill-rule="evenodd" fill="#ff0000"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">2. Pass</h2>
+            <div style="text-align:center;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 755 755" style="width:50%; margin:auto;">
+                    <path d="m427.7 218.9c87.1 40.2 152.4 148.9 83.3 273.7l-66-49c5.7 42 42.7 119.4 69.6 149 37.1 12.6 113.9 6.4 160.1-7.3l-63.1-31.3c117.8-200.1-4.4-394-140.7-447.5l10.2 66.2 -53.4 46.1 0 0z" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.8" stroke="#3a0303" fill-rule="evenodd" fill="#15a329"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">3. Refactor</h2>
+            <div style="text-align:center;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 755 755" style="width:50%; margin:auto;">
+                    <path d="m465.8 539.6c-76.5 58-203.1 64.4-280.7-55.3l74.3-35.2c-39.7-14.7-125.4-18.5-164.3-8.7 -28.5 26.8-59.3 97.5-68.9 144.7l57.3-41c121.1 198.1 349.7 181.5 461 86.5l-63.2-22.1 -15.5-68.8z" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.8" stroke="#0d1e02" fill-rule="evenodd" fill="#00f"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="slide" >
+        <div>
+            <h2 class="big headerStyle">Workshop</h2>
+            <div style="text-align:center;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 755 755" style="width:50%; margin:auto;">
+                    <path d="m162 414.1c-11-95.3 47.9-207.6 190.5-213.5l-7.6 81.9c32.9-26.7 79.7-98.6 91.1-136.9 -8.6-38.2-53.7-100.6-89.4-133l6.1 70.2c-232.2 3.4-334.3 208.7-309.1 352.8l51.2-43.2 67.1 21.6z" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.8" stroke="#01013f" fill-rule="evenodd" fill="#ff0000"/>
+                    <text font-weight="bold" transform="rotate(-34.7563, 212.693, 198.269) matrix(1.71008, -2.38419e-07, 0, 2.07815, -120.131, -249.402)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" y="225.4" x="194.1" stroke-width="0" stroke="#000000" fill="#fcfcfc">FAIL</text>
+                    <path d="m427.7 218.9c87.1 40.2 152.4 148.9 83.3 273.7l-66-49c5.7 42 42.7 119.4 69.6 149 37.1 12.6 113.9 6.4 160.1-7.3l-63.1-31.3c117.8-200.1-4.4-394-140.7-447.5l10.2 66.2 -53.4 46.1 0 0z" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.8" stroke="#3a0303" fill-rule="evenodd" fill="#15a329"/>
+                    <text font-weight="bold" transform="rotate(79.0963, 603.721, 353.82) matrix(1.67048, -8.9407e-08, 0, 1.87319, -154.005, -213.683)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" y="313" x="452.8" stroke-width="0" stroke="#000000" fill="#fcfcfc">PASS</text>
+                    <path d="m465.8 539.6c-76.5 58-203.1 64.4-280.7-55.3l74.3-35.2c-39.7-14.7-125.4-18.5-164.3-8.7 -28.5 26.8-59.3 97.5-68.9 144.7l57.3-41c121.1 198.1 349.7 181.5 461 86.5l-63.2-22.1 -15.5-68.8z" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="3.8" stroke="#0d1e02" fill-rule="evenodd" fill="#00f"/>
+                    <text font-weight="bold" transform="rotate(8.78412, 328.114, 626.054) matrix(1.47363, -1.04308e-07, -2.98023e-08, 1.78739, -60.9602, -205.578)" xml:space="preserve" text-anchor="middle" font-family="Arial" font-size="24" y="475.3" x="263.7" stroke-width="0" stroke="#000000" fill="#fcfcfc">REFACTOR</text>
+                </svg>
+            </div>
         </div>
     </section>
 
     <section class="slide">
         <div>
             <h2>Źródła</h2>
+            <p><a href="https://www.youtube.com/watch?v=PoGWuK5e_nY">Bizarre Russian House</a></p>
+            <p><a href="https://www.youtube.com/watch?v=DoIT3HO3sj0#t=60">World's tallest wooden house</a></p>
+            <p><a href="http://en.wikipedia.org/wiki/Sutyagin_House">Sutyagin_House</a></p>
             
         </div>
     </section>
